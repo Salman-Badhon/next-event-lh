@@ -18,25 +18,29 @@ body {
   box-sizing: border-box;
 }
 
-.custom-gradient {
-  background: #be229c;
-  filter: blur(100px);
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-.custom-gradient-2 {
+.gradient-1 {
   background: linear-gradient(
     142.29deg,
     #ffffff -10.73%,
     rgba(255, 255, 255, 0) 47.74%
   );
 }
-.custom-gradient-3 {
+
+.gradient-2 {
   background: #7c3eff;
+  opacity: 0.9;
+  filter: blur(500px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.gradient-3 {
+  background: #be229c;
   filter: blur(100px);
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
-.custom-gradient-4 {
+
+.gradient-4 {
   background: #22b5be;
-  filter: blur(100px);
+  filter: blur(500px);
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
