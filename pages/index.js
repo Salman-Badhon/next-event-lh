@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Hero from "../components/hero";
+import Hero from "../components/Hero";
+import EventTable from "../components/EventTable";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Hero />
+        <EventTable />
       </main>
     </div>
   );
